@@ -13,12 +13,6 @@ int main()
     Unit unit3(1, 50000, 660.00);
     Unit unit4(2, 90000, 1000.00);
     Unit unit5(1, 60000, 800.00);
-    // get_area
-    cout << "Area: " << unit1.get_area() << endl;
-    // get_bedrooms
-    cout << "Bedrooms: " << unit1.get_num_bedrooms() << endl;
-    // get_value
-    cout << "Value: " << unit1.get_value() << endl;
 
     // Condo with capacity 4
     ApartmentBuilding ab(4);
