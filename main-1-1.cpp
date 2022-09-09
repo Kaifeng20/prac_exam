@@ -4,12 +4,18 @@ using namespace std;
 
 int main()
 {
-    Unit unit[1];
+    // create units
+    Unit unit1(2, 78000, 800.32);
+    cout << unit1.toString() << endl;
+    Unit unit2(120000, 3, 1200.00);
+    Unit unit3(50000, 4, 660.00);
+    Unit unit4(90000, 6, 1000.00);
+    Unit unit5(60000, 2, 800.00);
 
-    unit[1] = Unit(2, 78000, 800.32);
-
-
-    cout<<"number of bedrooms:"<< unit[1].get_num_bedrooms() <<endl;
-    cout<<"Area is:" << unit[1].get_area() <<endl;
-    cout<<"value is: "<< unit[1].get_value() <<endl;
+    // get_area
+    cout << "Area: " << unit1.get_area() << endl;
+    // get_bedrooms
+    cout << "Bedrooms: " << unit1.get_num_bedrooms() << endl;
+    // get_value
+    cout << "Value: " << unit1.get_value() << endl;
 }

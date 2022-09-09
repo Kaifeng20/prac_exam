@@ -58,3 +58,15 @@ ApartmentBuilding::~ApartmentBuilding()
     delete[] units;
 }
 
+string ApartmentBuilding::toString()
+{
+    string s = "[ ";
+    for (int i = 0; i < size; i++)
+    {
+        s += units[i].toString();
+        // if not the last unit add a ","
+        if (i != size - 1) s += ", ";
+    }
+    s += "]";
+    return s;
+}
