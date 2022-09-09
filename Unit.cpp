@@ -30,8 +30,3 @@ double Unit::get_area()
 {
     return area;
 }
-string Unit::toString()
-{
-    string s = "(" + to_string(bedrooms) + ", " + to_string(area) + ", " + to_string(value) + ")";
-    return s;
-}

@@ -31,7 +31,6 @@ public:
     // destructor
     ~ApartmentBuilding();
 
-    string toString();
 };
 #endif
 
