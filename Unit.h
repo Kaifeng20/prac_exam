@@ -17,5 +17,6 @@ public:
     int get_num_bedrooms();                               // returns the number of bedrooms for the unit
     int get_value();                                      // returns the value in dollars of the Unit
     double get_area(); 
+    string toString();
 };
 #endif
