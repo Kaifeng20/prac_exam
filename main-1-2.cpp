@@ -34,7 +34,7 @@ int main()
     while (i < ab.get_current_number_of_units())
     {
         // prints each unit
-        cout << units[i].toString() << endl;
+        cout << units[i].get_num_bedrooms()<<units[i].get_area()<<units[i].get_value() << endl;
         i++;
     }
     return 0;
