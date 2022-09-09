@@ -9,10 +9,10 @@ int main()
     // create units
     Unit unit1(2, 78000, 800.32);
     cout <<unit1.get_num_bedrooms()<<unit1.get_area()<<unit1.get_value() << endl;
-    Unit unit2(3, 120000, 1200.00);
-    Unit unit3(1, 50000, 660.00);
-    Unit unit4(2, 90000, 1000.00);
-    Unit unit5(1, 60000, 800.00);
+    Unit unit2(120000, 3, 1200.00);
+    Unit unit3(50000, 4, 660.00);
+    Unit unit4(90000, 6, 1000.00);
+    Unit unit5(60000, 2, 800.00);
 
     // Condo with capacity 4
     ApartmentBuilding ab(4);
