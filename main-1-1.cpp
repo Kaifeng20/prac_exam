@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
-#include <string>
 #include "Unit.h"
 
 int main()
 {
-    Unit unit[3];
+    Unit unit[1];
 
-    unit[0] = Unit(3, 200.0, 25000);
-    unit[1] = Unit(5, 800.32, 78000);
-    unit[2] = Unit(1, 100.0, 12000);
+    unit[1] = Unit(2, 78000, 800.32);
 
 
+    cout<<"number of bedrooms:"<< unit[1].get_num_bedrooms() <<endl;
+    cout<<"Area is:" << unit[1].get_area() <<endl;
+    cout<<"value is: "<< unit[1].get_value() <<endl;
 }

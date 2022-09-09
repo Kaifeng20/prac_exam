@@ -4,7 +4,7 @@ using namespace std;
 
 Unit::Unit()
 {
-    numberOfBedrooms = 0;
+    num = 0;
     area = 0.0;
     value = 0;
 }
@@ -12,13 +12,13 @@ Unit::Unit()
 Unit::Unit(int unit_val, int num_beds, double unit_size)
 {   
     value = unit_val;
-    numberOfBedrooms = nb;
+    num = num_beds;
     area = unit_size;
 }
 
 int Unit::get_num_bedrooms()
 {
-    return numberOfBedrooms;
+    return num;
 }
 
 int Unit::get_value()

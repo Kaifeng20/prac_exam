@@ -3,13 +3,12 @@ using namespace std;
 #ifndef Unit_h
 #define Unit_h
 
-clsaa Unit
+class Unit
 {
 private:
-    int numberOfBedrooms;
     double area;
     int value;
-
+    int num;
 public:
     Unit();                                               // a default constructor 
     Unit(int unit_val, int num_beds, double unit_size);   // a constructor that takes: the value in dollars,
