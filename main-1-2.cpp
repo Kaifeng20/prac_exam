@@ -5,13 +5,14 @@ using namespace std;
 
 int main()
 {
+
     // create units
-    Unit unit1(2, 800.00, 100000);
+    Unit unit1(2, 78000, 800.32);
     cout <<unit1.get_num_bedrooms()<<unit1.get_area()<<unit1.get_value() << endl;
-    Unit unit2(3, 1200.00, 120000);
-    Unit unit3(1, 500.00, 66000);
-    Unit unit4(2, 900.00, 100000);
-    Unit unit5(1, 600.00, 80000);
+    Unit unit2(3, 120000, 1200.00);
+    Unit unit3(1, 50000, 660.00);
+    Unit unit4(2, 90000, 1000.00);
+    Unit unit5(1, 60000, 800.00);
     // get_area
     cout << "Area: " << unit1.get_area() << endl;
     // get_bedrooms
