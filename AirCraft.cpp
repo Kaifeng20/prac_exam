@@ -1,19 +1,20 @@
-#include 'AirCraft.h'
-
-AirCraft::AirCraft(){}
+#include "AirCraft.h"
 
 
-void AirCraft::refuel()
-{
-    this -> refuel = 100;
-}
-void AirCraft::set_fuel(float f){
-    this -> f = 0;
+AirCraft::AirCraft(){};
+
+AirCraft::AirCraft(int w){
+    set_weight();
 }
 
-float AirCraft:: get_feul(){
-    this -> feul;
+float AirCraft::set_fuel(){
+    set_fuel();
 }
 
-void AirCraft::fly(int headwind, int minutes)
+int AirCraft::get_fuel(){
+    return this->set_fuel;
+}
 
+int AirCraft::get_weight(){
+    return this->set_weight;
+}
